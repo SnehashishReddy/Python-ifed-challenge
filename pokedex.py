@@ -118,7 +118,7 @@ while True:
                 for z in double_damage_from_larger_list[identifier]:
                     sg.Print(z)
                 sg.Print('')
-            identifier+=1
+                identifier+=1
         sg.Print('The ablities of {} are: '.format(values['ab0']))
         for x in ability_list:
             sg.Print(x)
